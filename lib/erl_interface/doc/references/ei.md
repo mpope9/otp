@@ -735,6 +735,7 @@ int ei_x_encode_long(ei_x_buff* x, long p);
 
 Encodes a long integer in the binary format. If the code is 64 bits, the
 function `ei_encode_long()` is the same as `ei_encode_longlong()`.
+This is a variable length encoding.
 
 ## ei_encode_longlong()
 
